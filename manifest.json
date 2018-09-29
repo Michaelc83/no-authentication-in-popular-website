@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "no authentication in popular website",
+  "version": "1.0",
+
+  "description": "Add-on makes it possible to visit pornhub without authentication via VK",
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.pornhub.com/*"],
+      "js": ["main.js"]
+    }
+  ]
+
+}
