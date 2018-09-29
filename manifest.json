@@ -1,9 +1,11 @@
 {
   "manifest_version": 2,
-  "name": "no authentication in popular website",
+  "name": "No authentication in popular website",
   "version": "1.0",
 
   "description": "Add-on makes it possible to visit pornhub without authentication via VK",
+
+  "homepage_url": "https://github.com/andreyvpng/no-authentication-in-popular-website",
 
   "content_scripts": [
     {
